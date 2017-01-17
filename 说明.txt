@@ -1,0 +1,31 @@
+static 为静态资源目录
+
+package.json为 node 所添加的依赖
+
+server.js 为添加一个端口  来加载webpack的debug运行环境
+
+webpack.config.debug.js为webpack的debug运行环境
+
+
+webpack.config.release.js为实际编译的环境
+
+
+node_modules文件夹为 package.json为 node 所添加的依赖的下载文件
+
+
+
+app文件夹为 自己所 编写的   react 文件
+
+
+
+
+npm install --save-dev 用来运行package。json打添加依赖
+
+
+node server.js  运行debug 模式
+
+
+webpack --config webpack-config.js --colors  打包文件形成一个js 文件引入就OK
+
+
+.release.webpack -w 打包

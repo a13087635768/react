@@ -1,0 +1,2 @@
+assets------放固定的文件  如jqyery，css/图片
+
